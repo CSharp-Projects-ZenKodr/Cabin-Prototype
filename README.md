@@ -1,35 +1,32 @@
 # Cabin Project
+
+
 ## Idea
-Horror game in which the player must gather resources and explore the land to maintain their health and the security of their cabin. The player must use stealth to avoid dangerous creatures. More dangerous creatures are present as the player progresses. At night the creatures are stronger but stealth is easier... except for one, which will relentlessly hunt down the player.
+Horror game in which the player must gather resources and explore the land to maintain their health and the security of their cabin. The player must use stealth to avoid dangerous creatures. More dangerous creatures are present as the player progresses. At night the creatures are stronger but stealth is easier... but formidable monster will also relentlessly hunt down the player.
+
 
 ## Story
 * Incorporate psychological dread (repressed fears in player/character). 
 * Realistic features on models unexpectedly for uncanny effect. 
-* 4th wall break? 
+* 4th wall break?
 * Notes from past graveyard keepers to establish history or no notes, to show a story. 
 * Occult?
 
 ## Resources
-The player has limited inventory and must therefore stockpile. Note that 1 hour = 5 minutes.
+The player has limited inventory and must therefore stockpile. Note that 24 in-game hours = 30 minutes, 48 in-game minute = 1 min
 
 ### Hunger	
 - Total: 100.
-- Hunger depletes at a rate of 10 p/ hr.
+- Hunger depletes at a rate of 10 p/h.
 - Reaches 0, Player dies. 
 
 ### Energy	
-Total: 100.
-Every action the player performs has varying costs to energy, including:
--	Walking
--	Running
--	Food gathering
--	Cooking
--	Wood gathering
--	Wood processing
--	Barricading
--	Refuelling of lights or cars
-Energy is replenished by sleeping, where E p/ hr = Hunger / 10.
-Reaches 0, Player faints, and is punished somehow.
+- Total: 100.
+- Every action the player performs has varying costs to energy, including:
+	-	Running
+	-	Cooking, Wood gathering, Wood processing, Barricading and other complex interactions
+- Energy is replenished by sleeping, where E p/hr = Hunger / 12.
+- Reaches 0: Player can no longer perform any of the above. Walking speed is halved.
 
 ### Food	
 Vegetables, fruits and mushrooms found in the forest can be cooked. 
@@ -49,7 +46,6 @@ The monster avoids bright light, therefore lighting lanterns with oil is require
 
 ### Petrol	
 Gather petrol for car to escape in
-
 
 
 ## Backlog
